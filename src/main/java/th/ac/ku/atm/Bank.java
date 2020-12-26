@@ -1,4 +1,4 @@
-package atm;
+package th.ac.ku.atm;
 
 import java.util.Map;
 
@@ -37,5 +37,6 @@ public class Bank {
    public Customer findCustomer(int id) {
       return customers.get(id);
    }
+
 }
 
